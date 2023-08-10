@@ -1,0 +1,24 @@
+cargo
+Cargo is Rust's build system and package manager. Using cargo, adding dependency is much easier.
+
+Few cargo commands:
+cargo new project
+cd project
+cargo build
+cargo run
+
+.cargo/config.toml
+Alternate registry can be added in .cargo/config.toml
+
+What is Crate ?
+A crate is a smallest compilation unit in rust.
+Eg: rustc somefile.rs, here somefile.rs is a crate file.
+
+A crate can come in two forms: a binary crate and library crates.
+
+
+
+
+
+
+
